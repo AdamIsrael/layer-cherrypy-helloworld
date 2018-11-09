@@ -1,0 +1,6 @@
+includes:
+  - 'layer:basic'
+options:
+  basic:
+    use_venv: false
+repo: https://github.com/AdamIsrael/layer-cherrypy-helloworld

@@ -1,0 +1,11 @@
+name: cherrypy-helloworld
+summary: An example to demonstrate how to run a simple http service via a charm.
+maintainer: Adam Israel <Adam.Israel@maidalchini>
+description: |
+  <Multi-line description here>
+tags:
+  - example
+subordinate: false
+series:
+  - xenial
+  - bionic

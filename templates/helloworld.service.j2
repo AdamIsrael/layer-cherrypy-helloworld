@@ -1,0 +1,15 @@
+[Unit]
+Description=A cherrypy helloworld server
+After=syslog.target
+
+[Service]
+Type=simple
+User=root
+Group=root
+WorkingDirectory={{ charm_dir }}
+ExecStart={{ charm_dir }}/helloworld/helloworld.py
+StandardOutput=syslog
+StandardError=syslog
+
+[Install]
+WantedBy=multi-user.target

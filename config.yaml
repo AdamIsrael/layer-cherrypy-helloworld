@@ -1,0 +1,5 @@
+options:
+  http-port:
+    type: int
+    default: 80
+    description: "The port to use for http"
