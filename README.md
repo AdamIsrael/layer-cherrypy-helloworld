@@ -7,7 +7,6 @@ This charm provides an example of deploying a simple http server, powered by [ch
 Step by step instructions on using the charm:
 
 ```
-$ mkdir
 $ juju deploy cs:~aisrael/cherrypy-helloworld
 ```
 
