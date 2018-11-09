@@ -25,8 +25,6 @@ For example, if we wanted to listen on port 8080, instead of the default port 80
 juju config cherrypy-helloworld http-port=8080
 ```
 
-
 # Contact Information
 
-Adam Israel <adam.israel@canonical.com>
-https://github.com/AdamIsrael/layer-cherrypy-helloworld
+For any issues or questions, please see [Github](https://github.com/AdamIsrael/layer-cherrypy-helloworld).
